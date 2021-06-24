@@ -1,0 +1,94 @@
+body{
+
+    font-family: sans-serif;
+}
+.container{
+    padding: 0 10%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-section{
+    background-color: #faf9f9;
+}
+.bg,
+.form__area{
+    background-color: #eeeeee;
+}
+
+.contact-item{
+
+}
+.contacts-item a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.contacts-item--email a{
+    text-decoration: underline;
+}
+
+
+
+.comments__list{
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    list-style: none;
+
+}
+.main-title{
+
+    font-size: 52px;
+    font-weight: 300;
+}
+
+.comments-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.comments-item__title{
+    display: flex;
+    align-items: baseline;
+}
+.comments-item__name{
+    font-weight: 700;
+    margin-right: 40px;
+}
+.comments-item__time{
+    font-size: 12px;
+}
+.form__container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form__title{
+    font-size: 36px;
+}
+.form__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form__label{
+    margin-bottom: 15px;
+}
+
+.form__text{
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.form__submit{
+    font-size: 16px;
+    background: none;
+    border-radius: 5px;
+    margin-left: auto;
+    padding: 5px 15px;
+}
